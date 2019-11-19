@@ -1,0 +1,11 @@
+Categories,values,Marriage
+Price_m,2.202898551,Married
+Food_fresshness_m,1.797101449,Married
+Ingredients_m,2.594202899,Married
+heard of artificial_vegan meat-m,0.275362319,Married
+tried artificial/vegan meat_m,0.710144928,Married
+Price_s,2.068728522,Single
+Food_fresshness_s,1.738831615,Single
+Ingredients_s,2.725085911,Single
+heard of artificial_vegan meat_s,0.23024055,Single
+tried artificial/vegan meat_s,0.563573883,Single
