@@ -24,7 +24,7 @@ if __name__ == '__main__':
     .mapValues(lambda x: (len(x[0]), x[1], int((max(x[2].values())/x[1]*100)))) \
     .sortByKey()
     
-    final = test.map(lambda x: (x[0][0], x[0][1], x[1][1], x[1][0], x[1][2])) \
+    final = test.map(lambda x: (x[0][0], x[0][1], x[1][1], x[1][0], x[1][2]))
     
     sqlContext = SQLContext(sc)
     df = sqlContext.createDataFrame(final, ('Product', 'Year', 'Total_Complains', 'Unique_Companies', 'Percentage'))
